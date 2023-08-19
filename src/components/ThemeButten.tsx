@@ -4,7 +4,7 @@ import React, {useEffect, useState} from "react";
 import {useTheme} from "next-themes";
 import {MoonIcon, SunIcon} from "@heroicons/react/20/solid";
 
-const themeButton = () => {
+const ThemeButton = () => {
     const { resolvedTheme, setTheme } = useTheme()
 
     const [mounted, setMounted] = useState(false)
@@ -30,4 +30,4 @@ const themeButton = () => {
     );
 }
 
-export default themeButton;
+export default ThemeButton;
