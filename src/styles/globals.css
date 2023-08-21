@@ -21,3 +21,13 @@
     animation-iteration-count: infinite;
     transform-origin: 70% 70%;
 }
+
+body {
+    --text-primary: #1A202C;
+    --background-primary: #f7fafc;
+}
+
+body.dark-mode {
+    --text-primary: #f7fafc;
+    --background-primary: #1A202C;
+}
